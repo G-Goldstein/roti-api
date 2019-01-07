@@ -7,20 +7,20 @@ john = {
 
 graham = {
 	'id': 5,
-	'name': John
+	'name': Graham
 }
 
 mike = {
 	'id': 7,
-	'name': John
+	'name': Mike
 }
 
 adam = {
 	'id': 8,
-	'name': John
+	'name': Adam
 }
 
 martin = {
 	'id': 10,
-	'name': John
+	'name': Martin
 }
