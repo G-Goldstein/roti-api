@@ -6,6 +6,7 @@ import mock_players as mp
 MOCK = {
 	'details': md.draft,
 	'players': mp.players,
+	'next_pick': mp.mike,
 	'remaining_cards': [mc.griselbrand, mc.mother_of_runes, mc.grim_monolith]
 }
 
