@@ -1,9 +1,9 @@
 from flask_restful import Resource
-import mock_cubes
+import mocks.cubes as mcu
 
 MOCK = [
-	mock_cubes.power,
-	mock_cubes.martin
+	mcu.power,
+	mcu.martin
 ]
 
 class CubesMock(Resource):

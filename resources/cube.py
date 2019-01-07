@@ -1,9 +1,9 @@
 from flask_restful import Resource
-import mock_cards as mc
-import mock_cubes
+import mocks.cards as mc
+import mocks.cubes as mcu
 
 MOCK_1 = {
-	'details': mock_cubes.power,
+	'details': mcu.power,
 	'cards': [
 		mc.ancestral_recall,
 		mc.black_lotus,
@@ -18,7 +18,7 @@ MOCK_1 = {
 }
 
 MOCK_2 = {
-	'details': mock_cubes.martin,
+	'details': mcu.martin,
 	'cards': [
 		mc.channel,
 		mc.coalition_relic,

@@ -1,7 +1,7 @@
 from flask_restful import Resource
-import mock_drafts as md
-import mock_cards as mc
-import mock_players as mp
+import mocks.drafts as md
+import mocks.cards as mc
+import mocks.players as mp
 
 MOCK = {
 	'details': md.draft,

@@ -1,5 +1,5 @@
 from flask_restful import Resource
-import mock_drafts as md
+import mocks.drafts as md
 
 MOCK = [
 	md.draft
