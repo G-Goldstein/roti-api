@@ -1,19 +1,29 @@
 from flask_restful import Resource
+import mock_cards as mc
 
 MOCK_1 = [
-	{
-		'name': 'Black Lotus',
-		'oracle_id': '5089ec1a-f881-4d55-af14-5d996171203b',
-		'img': 'https://img.scryfall.com/cards/normal/en/vma/4.jpg?1517813031'
-	}
+	mc.ancestral_recall,
+	mc.black_lotus,
+	mc.mox_emerald,
+	mc.mox_jet,
+	mc.mox_pearl,
+	mc.mox_ruby,
+	mc.mox_sapphire,
+	mc.time_walk,
+	mc.timetwister,
 ]
 
 MOCK_2 = [
-	{
-		'name': 'Jace, the Mind Sculptor',
-		'oracle_id': '7f77a84e-5a4b-4834-aefa-3cecc175ae8e',
-		'img': 'https://img.scryfall.com/cards/normal/en/a25/62.jpg?1521725550'
-	}
+	mc.channel,
+	mc.coalition_relic,
+	mc.emrakul_the_aeons_torn,
+	mc.grim_monolith,
+	mc.griselbrand,
+	mc.jace_the_mind_sculptor,
+	mc.mother_of_runes,
+	mc.recurring_nightmare,
+	mc.umezawas_jitte,
+	mc.wurmcoil_engine,
 ]
 
 class CubeMock(Resource):
