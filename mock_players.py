@@ -1,26 +1,32 @@
 # Our IDs have come from our order in the rotisserie draft.
 
 john = {
-	'id': 3,
-	'name': John
+	'id': 'john',
+	'name': 'John'
 }
 
 graham = {
-	'id': 5,
-	'name': Graham
+	'id': 'graham',
+	'name': 'Graham'
 }
 
 mike = {
-	'id': 7,
-	'name': Mike
+	'id': 'mike',
+	'name': 'Mike'
 }
 
 adam = {
-	'id': 8,
-	'name': Adam
+	'id': 'adam',
+	'name': 'Adam'
 }
 
 martin = {
-	'id': 10,
-	'name': Martin
+	'id': 'martin',
+	'name': 'Martin'
+}
+
+players = [john, graham, mike, adam, martin]
+
+players_dict = {
+	p['id']:p for p in players
 }
