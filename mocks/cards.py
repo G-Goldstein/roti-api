@@ -2,7 +2,7 @@
 # Our API caches an image for each card, or else we'd have to hit Scryfall for each one.
 
 ancestral_recall = {
-	'name': 'Ancetral Recall',
+	'name': 'Ancestral Recall',
 	'img': 'https://img.scryfall.com/cards/normal/en/vma/1.jpg?1517813031'
 }
 
